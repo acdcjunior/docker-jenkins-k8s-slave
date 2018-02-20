@@ -1,5 +1,5 @@
 FROM gcr.io/cloud-solutions-images/jenkins-k8s-slave:v4
-ENV DOCKER_VERSION 17.06.0~ce-0~debian
+ENV DOCKER_VERSION 17.12.0~ce-0~debian
 
 RUN apt-get update && \
 	apt-get install -y \
